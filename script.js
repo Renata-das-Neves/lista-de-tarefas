@@ -1,7 +1,7 @@
 let lista = document.getElementById('listaTarefas');
 let entrada = document.getElementById('novaTarefa');
 
-//Carrega tarefas salvas ao abrir
+// Carrega tarefas salvas ao abrir
 let tarefas = JSON.parse(localStorage.getItem('tarefas')) || [];
 renderizarTarefas();
 
