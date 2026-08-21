@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #e3f2fd;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+caixa{
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 450px;
+}
+
+h1 {
+    text-align: center;
+    color: #1565c0;
+    margin-bottom: 25px;
+}
+
+.adicionar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #bbdefb;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    background: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #1565c0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background: #f5faff;
+    padding: 14px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 4px solid #1976d2;
+}
+
+li.feita {
+    opacity: 0.7;
+    border-left-color: #4caf50;
+    text-decoration: line-through;
+    color: #666;
+}
+
+.botoes {
+    display: flex;
+    gap: 6px;
+}
+
+.botao-feito {
+    background: #4caf50;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+.botao-feito:hover {
+    background: #43a047;
+}
+
+.botao-apagar {
+    background: #e53935;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+.botao-apagar:hover {
+    background: #d32f2f;
+}
