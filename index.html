@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Lista de Tarefas  </title>
+    <title>Minha Lista de Tarefas</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class = "caixa">
-      <h1>Minhas Tarefas</h1>
-     
-      <div class = "adicionar">
-        <input type = "text" id = "novaTarefa" placeholder = "Digite uma nova tarefa...">
-        <button onclick = "adicionarTarefa()">Adicinar</button>
-      </div>
+    <div class="caixa">
+        <h1>Minhas Tarefas</h1>
 
-      <ul id =""listaTarefas></ul> 
+        <div class="adicionar">
+            <!-- ✅ Aspas SIMPLES/CORRETAS — SEM duplicação! -->
+            <input type="text" id="novaTarefa" placeholder="Digite uma nova tarefa...">
+            <!-- ✅ Nome da função IGUAL ao JavaScript! -->
+            <button onclick="adicionarTarefa()">Adicionar</button>
+        </div>
+
+        <!-- ✅ Aspas CORRETAS! -->
+        <ul id="listaTarefas"></ul>
     </div>
 
-  <script src = "script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
